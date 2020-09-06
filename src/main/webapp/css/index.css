@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    line-height: 2;
+    font-size: 14px;
+    font-family: Whitney,"Microsoft Yahei","PingFang SC","HanHei SC","Helvetica Neue","Helvetica","STHeitiSC-Light","Arial",sans-serif;
+    color: #444;
+    background: #f6f8f9;
+}
+
+div{
+    display: block;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.header > .header-container{
+    width: 72%;
+    margin: 0 auto;
+}
+.header-container-title-span-a{
+    line-height: 100px;
+    width: auto;
+    font-weight: normal;
+    font-size: 40px;
+    color: black;
+    font-family: 华文行楷, serif;
+}
+.header-container-title-span{
+    height: 100%;
+    width: auto;
+    float: left;
+}
+.header-container-link{
+    height: 100%;
+    width: auto;
+    float: right;
+}
+.header-container-link > ul{
+    text-align: center;
+
+}
+.header-container-link > ul >  li{
+    line-height: 100px;
+    list-style:none; /* 将默认的列表符号去掉 */
+    padding:0; /* 将默认的内边距去掉 */
+    margin-left:30px; /* 将默认的外边距去掉 */
+    float: left; /* 往左浮动 */
+    display: block;
+}
+
+.header-container-link > ul > li > a{
+    font-size: 17px;
+    color: black;
+}
+
+.header-container > span {
+    height: 100px;
+    width: auto;
+}
+.main{
+    margin:0 auto;
+    padding-top: 30px;
+    width: 72%;
+    height: 1000px;
+}
+.footer{
+    margin-top: 30px;
+    padding: 50px 0 30px;
+    background: #fff;
+}
+.footer > .footer-container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #555;
+}
+a {
+    color: #369;
+    transition: color 150ms linear;
+    cursor: pointer;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+input[type=text], input[type=text]:focus, input[type=text]:active, input[type=email], input[type=email]:focus, input[type=email]:active, input[type=number], input[type=number]:focus, input[type=number]:active, input[type=password], input[type=password]:focus, input[type=password]:active, textarea, textarea:active, textarea:focus, button, button:active, button:focus, button:invalid, a:active, a:visited, a:link {
+    outline: transparent 0;
+    -webkit-appearance: none;
+}
+.main-list{
+    width: 67%;
+    float: left;
+    height: 100%;
+    background-color: yellow;
+}
+.main-sidebar{
+    width: 30%;
+    float: right;
+    height: 100%;
+    background-color: blue;
+}
